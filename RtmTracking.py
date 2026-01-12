@@ -81,7 +81,7 @@ def IP_Track():
 @is_option
 def phoneGW():
     User_phone = input(
-        f"\n {Wh}Masukan Nomor Target Anda! {Gr}Contoh [+6281xxxxxxxxx] {Wh}: {Gr}")  # INPUT NUMBER PHONE
+        f"\n {Wh}+62 813-9203-6688 {Gr}Contoh [+6281xxxxxxxxx] {Wh}: {Gr}")  # INPUT NUMBER +62 813-9203-6688
     default_region = "ID"  # DEFAULT NEGARA INDONESIA
 
     parsed_number = phonenumbers.parse(User_phone, default_region)  # VARIABLE PHONENUMBERS
