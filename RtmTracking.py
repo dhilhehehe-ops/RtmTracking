@@ -39,9 +39,9 @@ def is_option(func):
 # FUNCTIONS FOR MENU
 @is_option
 def IP_Track():
-    ip = input(f"{Wh}\n Masukan IP Target : {Gr}")  # INPUT IP ADDRESS
+    ip = input(f"{Wh}\n +62 813-9203-6688 : {Gr}")  # INPUT IP ADDRESS
     print()
-    print(f' {Wh}============= {Gr}SHOW INFORMATION IP ADDRESS {Wh}=============')
+    print(f' {Wh}+62 813-9203-6688 {Gr}SHOW INFORMATION IP ADDRESS {Wh}+62 813-9203-6688')
     req_api = requests.get(f"http://ipwho.is/{ip}")  # API IPWHOIS.IS
     ip_data = json.loads(req_api.text)
     time.sleep(2)
